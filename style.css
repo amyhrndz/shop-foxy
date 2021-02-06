@@ -325,6 +325,7 @@ form {
  .hamMenu {
    display: none;
   }
+}
 
 
 
@@ -367,8 +368,7 @@ form {
 
  .checkout-image {
    max-width: 25%
-}
-
+ }
 }
  
 /* FOOTER */
