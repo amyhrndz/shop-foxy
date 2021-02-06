@@ -1,0 +1,324 @@
+/* MAIN NAV BAR */
+.header {
+   background: #f2f1ec;
+   height: 115px;
+}
+ .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ button {
+   background-color: #fdbf55;
+   height: 60px;
+   width: 140px;
+   border-radius: 10px;
+   border: none;
+   font-family: Nunito sans;
+   font-weight: bold;
+   font-size: 1em;
+   color: #343430;
+}
+ button:hover {
+   background-color: #f4db82;
+   height: 60px;
+   width: 140px;
+   border-radius: 10px;
+   border: none;
+   font-family: Nunito sans;
+   font-weight: bold;
+   font-size: 1em;
+   color: #343430;
+ }
+ .nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 100%;
+}
+ .navItem {
+   display: flex;
+   justify-content: space-around;
+   width: 400px;
+   font-family: Nunito sans;
+   font-weight: bold;
+   color: #025158;
+   font-size: 1em;
+}
+ a {
+   font-family: Nunito sans;
+   text-decoration: none;
+   color: #025158;
+   font-weight: bold;
+   font-size: 1em;
+}
+a:hover {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: underline;
+  color: #025158;
+  font-weight: bold;
+  font-size: 1em;
+}
+.hamMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+ .navRetailers {
+   width: 300px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+ body {
+   margin: 0px;
+}
+html {
+  width: auto;
+}
+/* GENERAL STYLING */
+ h1 {
+   font-family: 'Josefin sans', sans-serif;
+   color: #025158;
+   padding-right: 5%;
+}
+h2 {
+   font-family: 'Josefin sans', sans-serif;
+   font-size: 20px;
+   color: #343430;
+}
+h3 {
+   font-family: 'Josefin sans', sans-serif;
+   color: #FEDFAA;
+   padding-right: 5%;
+   display: block;
+   font-size: 2em;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+h4 {
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 16px;
+   color: #F2F1EC;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: lighter;
+}
+p {
+  font-family: 'Nunito Sans', sans-serif;
+   font-size: 16px;
+   color: #343430;
+}
+/* positioning for Small Business cream box and text */
+.main-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   background-color: white;
+   padding: 40px;
+}
+.opening-text {
+   display: flex;
+   padding: 20px;
+   background-color: white;
+   padding-left: 5%;
+}
+.opening-image {
+   display: flex;
+   max-width: 100%;
+   min-width: 50%;
+   padding: 20px;
+   background-color: white;
+}
+ /* How does foxy work page css here */
+.how-page {
+   display: flex;
+   background-color: #F4DB82;
+   width: 100%;
+   padding: 5% 0 5% 0;
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+.how-text {
+   width: 660px;
+   padding-right: 20px;
+   padding-left: 5%;
+}
+.how-box {
+   flex-direction: column;
+   padding: 20px;
+   width: 550px;
+}
+.box {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   background-color: white;
+   margin: 20px;
+   padding: 20px;
+   padding-left: 30px;
+}
+/* App download section here */
+.app-download {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.fast-delivery {
+    display: flex;
+    margin: 40px;
+}
+.delivery-text {
+    flex-direction: column;
+    width: 40%;
+    padding: 3%;
+}
+.photo {
+max-width: 50%;
+}
+/* Main page css here */
+ .cream-box-border {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+ .cream-box {
+    /* flex-wrap: wrap; */
+   align-items: center;
+   width: 70vw;
+   background-color: #F2F1EC;
+   margin-bottom: 5%;
+   padding: 60px 0 0 0;
+   display: flex;
+   flex-direction: column;
+   max-height: 650px;
+}
+ .small-business-text {
+   width: 40%;
+   position: relative;
+   top: -80px;
+}
+ .small-business-image {
+   position: relative;
+   top: -100px;
+   width: 40%;
+}
+ /* positioning for Go Green box and text */
+ .green-box-border {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+ .green-box {
+  display: flex;
+  max-height: 350px;
+   width: 90%;
+   background-color: #025158;
+   margin-top: 20%;
+   margin-bottom: 25%;
+   padding: 30px;
+}
+ .go-green {
+   width: 50%;
+   margin-left: 10%;
+}
+.box-handoff-image {
+  position: relative;
+  bottom: -125px;
+  left: +50px;
+  margin-bottom: 30%;
+}
+ /* positioning for light yellow People love us box and text */
+ .ltyellow-box-border {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 15%;
+}
+ .ltyellow-box {
+    display: flex;
+    max-height: 20vw;
+   width: 70%;
+   background-color: #F4DB82;
+   padding: 10%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+ .people-love {
+   width: 75vw;
+}
+ .girl-cart-image {
+   position: relative;
+   left: -100px;
+   top: -150px;
+   width: 70%;
+}
+ /* .people-love-text { */
+   /* position: relative; */
+   /* float: right; */
+   /* width: 50%; */
+   /* bottom: 650px; */
+ /* positioning for Subscribe to our newsletter */
+ .subscribe-border {
+   display: flex;
+   justify-content: center;
+}
+ .subscribe {
+   background-color: white;
+   padding: 30px;
+   margin-bottom: 10%;
+   padding: 30px;
+}
+ #fname {
+   width: 90%;
+   border: solid #025158;
+   border-radius: 10px;
+   height: 30px;
+   font-family: 'nunito-sans', sans-serif;
+}
+form {
+    font-family: 'nunito-sans', sans-serif;
+    font-size: 16px;
+}
+ /* positioning for footer */
+ .footerContent {
+   background: #f2f1ec;
+   height: 250px;
+   padding: 30px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+ /* Media Query */
+/* .small-business-image */
+ 
+/* FOOTER */
+/* CONFIRMATION PAGE */
+.background {
+   display: flex;
+   background-color: #025158;
+   max-width: 75%;
+   height: 100%;
+}
+.confirm-section {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-right: 5%;
+}
+.confirm-text {
+    flex-direction: column;
+    align-items: center;
+    width: 525px;
+    margin: 30px;
+    padding: 15px;
+}
+
