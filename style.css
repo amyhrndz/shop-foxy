@@ -297,8 +297,79 @@ form {
    align-items: center;
    display: flex;
 }
+
  /* Media Query */
-/* .small-business-image */
+ @media only screen and (max-width: 2000px)
+ {
+ .hamMenu {
+   display: none;
+  }
+ }
+
+ @media only screen and (max-width: 1000px)
+ {
+  .navItem {
+    display: none;
+  }
+
+  .navRetailers {
+   display: none;
+ }
+
+ .nav {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    width: 100%;
+ }
+ .hamMenu {
+   display: none;
+  }
+
+
+
+@media only screen and (max-width: 700px)
+ {
+ .hamMenu {
+   display: flex;
+   justify-content: flex-end;
+   height: 20px;
+   width: 80%;
+   margin: 0 auto;
+  }
+
+  .nav {
+   padding-left: 5%;
+   width: 100%;
+  }
+ .arrow {
+   display: none;
+  }
+ h1 {
+   font-size: 2em;
+   font-weight: 700;
+   margin: auto 0;
+ }
+ h2 {
+   font-size: 1.25em;
+   font-weight: 600;
+   margin: auto 0;
+ }
+ h3 {
+   font-size: 1em;
+   font-weight: 500;
+   margin: auto 0;
+ }
+
+ .opening-image {
+    flex-direction: column;
+ }
+
+ .checkout-image {
+   max-width: 25%
+}
+
+}
  
 /* FOOTER */
 /* CONFIRMATION PAGE */
